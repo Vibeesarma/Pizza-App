@@ -4,7 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import GlobalStyle from "./Style/GlobalStyle";
 import Menu from "./Menu/Menu";
 import { Banner } from "./Banner/Banner";
-import { Count } from "./Practise/count";
+// import { Count } from "./Practise/count";
 
 function App(){
     return(
@@ -15,7 +15,7 @@ function App(){
         <NavBar/>
         <Banner/>
         <Menu/>
-        <Count/>
+        {/* <Count/> */}
         </div>
     )
 }
